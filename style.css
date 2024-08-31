@@ -1,0 +1,249 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+    --git: hsl(0, 0%, 100%);
+    --twitter: hsl(196, 93%, 48%);  
+    --insta: #bc1888; 
+    --fm: hsl(189, 51%, 61%);
+    --linkedin: hsl(210, 90%, 40%);
+}
+
+body {
+    background-color: var(--Grey900);
+    box-sizing: border-box;
+    font-family: Inter;
+    margin: 0; height: 100%; overflow: hidden;
+}
+
+.card {
+    background-color: var(--Grey800);
+    width: 285px;
+    height: 450px;
+    border-radius: 10px;
+    margin: auto;
+    padding-bottom: 35px;
+    margin-top: 6%;
+}
+
+@media (max-width: 400px) {
+    .card {
+        margin-top: 20%;
+    }
+}
+
+.profile_pic {
+    margin: auto;
+    padding-top: 35px;
+    text-align: center;
+}
+
+img {
+    height: 65px;
+    width: 65px;
+    border-radius: 65px;
+    margin: auto;
+}
+
+.user_name {
+    color: var(--White);
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.adress {
+    color: var(--Green);
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.description {
+    color: var(--White);
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.git {
+    display: block;
+    margin: auto;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--Grey700);
+    color: var(--White);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: all 0.2s linear;
+}
+
+.git:hover {
+    display: block;
+    margin: auto;
+    width: 245px;
+    height: 45px;
+    line-height: 45px;
+    background-color: var(--git);
+    color: var(--Grey900);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.fm {
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--Grey700);
+    color: var(--White);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: all 0.2s linear;
+}
+
+.fm:hover {
+    display: block;
+    margin: auto;
+    width: 245px;
+    height: 45px;
+    line-height: 45px;
+    background-color: var(--fm);
+    color: var(--Grey900);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.linkedin {
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--Grey700);
+    color: var(--White);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: all 0.2s linear;
+}
+
+.linkedin:hover {
+    display: block;
+    margin: auto;
+    width: 245px;
+    height: 45px;
+    line-height: 45px;
+    background-color: var(--linkedin);
+    color: var(--White);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.insta {
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--Grey700);
+    color: var(--White);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: all 0.2s linear;
+}
+
+.insta:hover {
+    display: block;
+    margin: auto;
+    width: 245px;
+    height: 45px;
+    line-height: 45px;
+    background-color: var(--insta);
+    color: var(--White);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.twitter {
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--Grey700);
+    color: var(--White);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: all 0.2s linear;
+}
+
+.twitter:hover {
+    display: block;
+    margin: auto;
+    width: 245px;
+    height: 45px;
+    line-height: 45px;
+    background-color: var(--twitter);
+    color: var(--White);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
